@@ -1,8 +1,8 @@
 # Ivan
 # Frontend Developer (coming soon)
 ## Contacts
-* e-mail: ya@vzene.ru
-* github: ratioglobus
+* E-mail: ya@vzene.ru
+* [Github](https://github.com/ratioglobus)
 ## Summary
 I actively explore the world of **Frontend development**. Already now I work as a **QA Engineer**, plunging into the IT industry.
 ## Skills
@@ -14,6 +14,7 @@ I actively explore the world of **Frontend development**. Already now I work as 
 6. QA Engeneering skills
 7. VSCode, Sublime, Brackets
 ## Code examples
+Implement the encrypt() function that takes the original message as input and returns the encrypted one, where every two consecutive characters would be swapped.
 ```
 const encrypt  = (str) => {
   let result = '';
@@ -26,3 +27,11 @@ const encrypt  = (str) => {
   return result.replace(/undefined/,'');
 };
 ```
+## Education
+- [Rolling-scopes-school](https://rs.school/) - JS/FRONT-END well
+- Sea of self-education on YouTube
+## Language
+- English - A1
+- Russia - carrier
+
+# Thanks for the introduction
