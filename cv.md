@@ -35,4 +35,4 @@ const encrypt  = (str) => {
 - English - A1
 - Russia - native speaker
 
-**Thanks for the introduction**
+**Thanks for the introduction!**
