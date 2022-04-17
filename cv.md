@@ -22,16 +22,17 @@ const encrypt  = (str) => {
 
   while (i < str.length) {
       result = `${result}${str[i + 1]}${str[i]}`;
-      i += 2
+      i += 2;
   }
+
   return result.replace(/undefined/,'');
 };
 ```
 ## Education
-- [Rolling-scopes-school](https://rs.school/) - JS/FRONT-END well
+- [Rolling-scopes-school](https://rs.school/) - JS/FRONT-END course
 - Sea of self-education on YouTube
 ## Language
 - English - A1
-- Russia - carrier
+- Russia - native speaker
 
-# Thanks for the introduction
+**Thanks for the introduction**
