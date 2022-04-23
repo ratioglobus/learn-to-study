@@ -4,17 +4,38 @@
     <meta charset="utf-8">
     <title>Summary</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
   </head>
 
   <body>
     
     <div class="title"><p class="text">Enter the word for the cipher</p></div>
     <div class="form">
-      <input class='form' id='' type="text">
-      <button class="button" id="">Send</button>
+      <input class='form' id='word' type="text">
+      <button class="button" onclick="alerted();">Send</button>
     </div>
     <div class="result"></div>
+
+  <script type="text/javascript">
+
+
+  function alerted(){
+    var word = document.getElementById('word').value;
+
+    const encrypt  = (word) => {
+     let result = '';
+     let i = 0;
+
+     while (i < word.length) {
+         result = `${result}${word[i + 1]}${word[i]}`;
+         i += 2
+     }
+     alert(result)
+   };
+   };
+
+  </script>
+
+
 
   </body>
 </html>
