@@ -1,6 +1,3 @@
-alert('hello');
-
-
 
 // const encrypt  = (str) => {
 //     let result = '';
