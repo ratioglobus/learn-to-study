@@ -22,5 +22,48 @@
     </div>
     <div class="result"></div>
 
+
+
+    <div class="test__form">
+      <form id="mars-once" action="/apply/" method="POST">
+        <label>
+          Ваше имя:
+          <input class="input__test" type="text" name="name" id="name" placeholder="Илон Маск" required autofocus>
+        </label>
+      
+        <label>
+          Почта:
+          <input class="input__test" type="email" name="email" id="email" placeholder="elon@musk.com" required>
+        </label>
+      
+        <label>
+          Возраст:
+          <input class="input__test" type="number" name="age" required>
+        </label>
+      
+        <label>
+          Профессия:
+          <select class="select" name="specialization" required>
+            <option value="engineer" selected>Инженер</option>
+            <option value="scientist">Учёный</option>
+            <option value="psychologist">Психолог</option>
+            <option value="other">Другая</option>
+          </select>
+        </label>
+      
+        <label>
+          Я работал в NASA
+          <input class="checkbox" type="checkbox" name="nasa-experience" value="1">
+        </label>
+      
+        <!-- <label>
+          Фото:
+          <input type="file" accept="image/jpeg" name="photo" required>
+        </label> -->
+      
+        <button class="btn__test" type="submit">Отправить заявку</button>
+      </form>
+    </div>
+
   </body>
 </html>
