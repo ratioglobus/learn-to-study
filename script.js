@@ -10,12 +10,14 @@
 //     return result.replace(/undefined/,'');
 //   };
 
-function handleFormSubmit(event) {
-    // Просим форму не отправлять данные самостоятельно
+function serializeForm(formNode) {
+    console.log(formNode.elements)
+  }
+  
+  function handleFormSubmit(event) {
     event.preventDefault()
-    console.log('Отправка!')
+    serializeForm(applicantForm)
   }
   
   const applicantForm = document.getElementById('mars-once')
   applicantForm.addEventListener('submit', handleFormSubmit)
-  
