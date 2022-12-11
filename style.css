@@ -23,7 +23,7 @@ input {
     color: brown;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -49,8 +49,8 @@ input {
 }
 
 .test__form {
-    padding: 50px;
-    margin-top: 50px;
+    padding: 40px;
+    margin-top: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
