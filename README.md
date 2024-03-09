@@ -1,4 +1,4 @@
-https://ratioglobus.github.io/rsschool-cv/
+https://ratioglobus.github.io/learn-to-study/
 
 Here I am experimenting with JS and HTML/CSS
 
